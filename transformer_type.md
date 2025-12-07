@@ -72,6 +72,20 @@ Developed by **OpenAI**, GPT is based on the **Transformer architecture**
 |Pre-trained|	It’s trained in advance on a huge amount of text from the internet, books, and articles — before being fine-tuned for specific tasks.|
 |Transformer|	The neural network architecture it’s built on — based on self-attention (helps the model understand context and relationships in text).|
 
+**How GPT works (in simple steps)**
+1.	Training phase (Pre-training):
+*	GPT reads massive amounts of text (billions of words).
+*	It learns patterns of language, grammar, facts, and context.
+*	The goal: predict the next word in a sentence.
+**Example:**
+**“The sky is ___” → likely “blue”.**
+2.	Fine-tuning (or instruction tuning):
+*	The model is later trained with human feedback (like instructions, question-answering, reasoning).
+*	This makes GPT useful for practical conversation and problem-solving (like ChatGPT).
+3.	Inference (using it):
+*	You give it a prompt, and GPT generates text word-by-word (token-by-token), predicting what comes next logically and contextually.
+
+
 
 
 
