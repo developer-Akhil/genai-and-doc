@@ -33,7 +33,7 @@ from langchain_core.prompts import PromptTemplate
 #
 
 # Read pdf files
-pdf_reader = PyPDFLoader("RAGPaper.pdf")
+pdf_reader = PyPDFLoader("VH021.pdf")
 documents = pdf_reader.load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200,)
 chunks = text_splitter.split_documents(documents)
@@ -45,15 +45,15 @@ db = FAISS.from_documents(documents=chunks, embedding=embeddings)
 # Initialize the model
 llm = Ollama(model='tinyllama')
 
-CONDENSE_QUESTION_PROMPT = PromptTemplate.from_template("""Given the following conversation and a follow question, rephrase the follow up question to be a standalone question.
+question_prompt = PromptTemplate.from_template("""Given the following conversation and a follow question, rephrase the follow up question to be a standalone question.
                                                         Chat History:{chat_history}
                                                         Follow up Input: {question}
                                                         Standalone question:""")
-qa = ConversationalRetrievalChain.from_llm(llm=llm, retriever=db.as_retriever(), condense_question_prompt=CONDENSE_QUESTION_PROMPT, return_source_documents=True,
+qa = ConversationalRetrievalChain.from_llm(llm=llm, retriever=db.as_retriever(), condense_question_prompt=question_prompt, return_source_documents=True,
                                            verbose=False)
 
 chat_history=[]
-query="""what is a RAG-sequence model?"""
+query="""Which vegetable is best to eat?"""
 result = qa({"question":query, "chat_history":chat_history})
 
 
