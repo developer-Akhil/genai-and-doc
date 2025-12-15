@@ -1,10 +1,11 @@
-**How to implement RAG using Ollama?**
+'''
+How to implement RAG using Ollama?
 
 The code below demonstrates asking general questions and implementing a Retrieval-Augmented Generation (RAG) pipeline using Ollama with the TinyLLaMA model, while leveraging Hugging Face embeddings for vectorization.
 
 *Hugging Face embeddings are numerical vector representations of data such as words, sentences or images generated using pre trained models available on the Hugging Face platform.*
+'''
 
-```
 # Importing Libraries
 from langchain_community.llms import Ollama
 import openai
@@ -55,5 +56,3 @@ result = qa({"question":query, "chat_history":chat_history})
 
 
 print(result['answer'])
-
-```
