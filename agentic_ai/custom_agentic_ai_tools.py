@@ -35,6 +35,6 @@ print(add.description)
 print(add.args)
 
 
-print(multiply.args_schema.model_json_schema())
+print(add.args_schema.model_json_schema())
 
 
