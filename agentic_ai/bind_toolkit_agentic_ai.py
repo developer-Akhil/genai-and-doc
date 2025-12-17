@@ -40,14 +40,14 @@ Tool message
 result = llm_with_tools.invoke('can you sum 8 and 9?')
 
 
-tool_result = multiply.invoke(result.tool_calls[0])
+tool_result = add.invoke(result.tool_calls[0])
 
 # print(tool_result)
 
 '''
 Human message  
 '''
-query = HumanMessage("can you multiply 3 with 10")
+query = HumanMessage("can you sum 8 and 9 ?")
 
 messages = [query]
 
