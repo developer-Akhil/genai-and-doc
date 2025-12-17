@@ -13,7 +13,8 @@ import requests
 @tool
 def add(a: int, b:int) -> int:
   """Given 2 numbers a and b this tool returns their sum"""
-  return a*b
+  c = a + b
+  return c
 
 llm = ChatOpenAI(
     base_url="https://openrouter.ai/api/v1",
