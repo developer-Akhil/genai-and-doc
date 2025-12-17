@@ -12,3 +12,29 @@ An agentic system typically follows this loop:
 4. Observe – Evaluate the results
 5. Reflect & Adjust – Modify the plan if needed
 6. Complete – Deliver the final outcome
+
+
+**baseTool**(``from langchain.tools import BaseTool``)
+
+In LangChain, BaseTool is the abstract base class used to define tools that an LLM can call during agent execution.\
+BaseTool in LangChain is the abstract/base class that defines the standard interface for all “tools” an LLM agent can call. It specifies how a tool is named, described, validated, and executed.
+
+BaseTool defines:
+* The interface for tools
+* How tool inputs are validated
+* How tool execution is invoked
+* How tools are described to the LLM
+Agents rely on BaseTool to reason about which action to take and how to execute it.
+
+ Why BaseTool Exists
+
+LLMs cannot:
+* Access databases directly
+* Call APIs on their own
+* Execute Python code safely
+
+BaseTool bridges this gap by:
+* Exposing controlled capabilities
+* Enforcing schemas
+* Preventing arbitrary execution
+
