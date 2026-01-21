@@ -91,5 +91,3 @@ Developed by **OpenAI**, GPT is based on the **Transformer architecture**
 
 
 
-
-
