@@ -21,7 +21,6 @@ For the successful implementation of this solution, the following inputs are req
 * **Historical Claims Data**: Prior claim records to enable pattern analysis, model training, and benchmarking.
 * **Claimant Information**: Policyholder details, including demographic information, relevant medical records, and associated billing documents, where applicable.
 
-
 # Architecture Overview(5 Key Steps)
 **Data Ingestion & Validation:** ClaimTrackr collects claim-related data from multiple sources such as policyholder records, medical documents, external systems, and government references. The data is validated and standardized to ensure accuracy and compliance.
 
