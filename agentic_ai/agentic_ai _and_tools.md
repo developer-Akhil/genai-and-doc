@@ -62,3 +62,5 @@ In LangChain, **tool binding** is the process of attaching external tools (funct
 * **Binding**: The bind_tools() method takes a list of these defined tools and attaches their schemas to the model instance. The tool metadata is passed along in every subsequent API call to the LLM.
 * **Model Decision**: When the model receives a user prompt, it can choose to return a tool call request (instead of a final text answer) if it determines a tool is needed to fulfill the request. The model generates the tool's name and the specific arguments to use.
 
+
+
