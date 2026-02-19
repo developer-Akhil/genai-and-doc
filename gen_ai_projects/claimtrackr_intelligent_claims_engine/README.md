@@ -21,6 +21,11 @@ For the successful implementation of this solution, the following inputs are req
 * **Historical Claims Data**: Prior claim records to enable pattern analysis, model training, and benchmarking.
 * **Claimant Information**: Policyholder details, including demographic information, relevant medical records, and associated billing documents, where applicable.
 
+# Objectives
+Develop a chatbot using AI to assist the process of claim processing, and approval. • Real-time Support: Offer an executive summary of the claims, and also provide whether the claims are valid or not. • Educational Resource: Share knowledge on membership handbooks
+
+<img width="790" height="282" alt="image" src="https://github.com/user-attachments/assets/4004a304-6c36-4148-9551-7b3240f53bbf" />
+
 # Architecture Overview(5 Key Steps)
 **Data Ingestion & Validation:** ClaimTrackr collects claim-related data from multiple sources such as policyholder records, medical documents, external systems, and government references. The data is validated and standardized to ensure accuracy and compliance.
 
