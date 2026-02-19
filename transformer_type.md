@@ -1,6 +1,14 @@
-# Transformer Type
+# Transformer
+A Transformer is a deep learning architecture introduced in 2017 in the paper “Attention Is All You Need”. It is designed for handling sequential data (especially text) and is the foundation of modern large language models.
 
-A Transformer is a deep learning model architecture introduced by Google researchers in 2017 in a paper titled.\
+**Core Idea**\
+The Transformer replaces recurrence (RNNs) and convolution (CNNs) with a mechanism called self-attention, which allows the model to:\
+Look at all words in a sentence simultaneously\
+Learn contextual relationships between them\
+Capture long-range dependencies efficiently
+
+**Transformer Type**\
+A Transformer is a deep learning model architecture introduced by Google researchers in 2017 in a paper titled.
 It was designed to handle sequential data (like text, speech, or time series) more efficiently than older models such as **RNNs (Recurrent Neural Networks)** and **LSTMs (Long Short-Term Memory networks)**.\
 A Transformer in AI is a type of neural network architecture designed for processing sequential data, such as text, by learning context and tracking relationships between sequence elements using mechanisms called attention and self-attention. Transformers are the foundation for modern natural language processing (NLP) models like GPT (Generative Pretrained Transformer), BERT, and Gemini, and have also been \ adapted for computer vision, audio, and multimodal AI applications.
 
