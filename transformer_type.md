@@ -1,5 +1,5 @@
 # Transformer
-A Transformer is a deep learning architecture introduced in 2017 in the paper “Attention Is All You Need”. It is designed for handling sequential data (especially text) and is the foundation of modern large language models.
+A Transformer is a deep learning model architecture introduced by Google researchers in 2017 in a paper titled. It was designed to handle sequential data (like text, speech, or time series) more efficiently than older models such as **RNNs (Recurrent Neural Networks)** and **LSTMs (Long Short-Term Memory networks)**.
 
 **Core Idea**\
 The Transformer replaces recurrence (RNNs) and convolution (CNNs) with a mechanism called self-attention, which allows the model to:\
@@ -8,10 +8,19 @@ Learn contextual relationships between them\
 Capture long-range dependencies efficiently
 
 **Transformer Type**\
-A Transformer is a deep learning model architecture introduced by Google researchers in 2017 in a paper titled.
-It was designed to handle sequential data (like text, speech, or time series) more efficiently than older models such as **RNNs (Recurrent Neural Networks)** and **LSTMs (Long Short-Term Memory networks)**.\
 A Transformer in AI is a type of neural network architecture designed for processing sequential data, such as text, by learning context and tracking relationships between sequence elements using mechanisms called attention and self-attention. Transformers are the foundation for modern natural language processing (NLP) models like GPT (Generative Pretrained Transformer), BERT, and Gemini, and have also been \ adapted for computer vision, audio, and multimodal AI applications.
 
+**Embedding**\
+Embedding converts discrete data (like words or sentences) into meaningful numerical vectors so that similar items are close together in vector space.
+
+**Why Do We Need Embeddings?**\
+Machine learning models cannot process raw text directly.
+They require numerical input.\
+Embeddings solve this by:
+* Converting tokens into vectors
+* Capturing semantic meaning
+* Enabling similarity search
+* Supporting clustering and retrieval
 
 **Embedding Layer:**\
 An Embedding Layer is a neural network layer that converts words (or tokens) into numbers (vectors) — specifically, into dense numerical representations that capture the meaning or context of the words.
