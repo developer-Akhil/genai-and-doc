@@ -32,6 +32,9 @@ For the successful implementation of this solution, the following inputs are req
 
 **Report Generation & Insights** A structured, consistent report is generated, summarizing claim status, recommendations, and settlement details, enabling faster and more informed decision-making.
 
+<img width="1024" height="683" alt="image" src="https://github.com/user-attachments/assets/03b9713b-b983-4e02-9b9a-1a606a94134d" />
+
+**UI View**
 
 <img width="1762" height="783" alt="image" src="https://github.com/user-attachments/assets/12d03c5e-5fba-4f27-b575-e89dfbd3035b" />
 
