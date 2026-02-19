@@ -6,4 +6,5 @@ RAG (Retrieval-Augmented Generation) is an architectural pattern in Generative A
 
 Instead of relying only on its pre-trained parameters, the model retrieves context from a knowledge base and then generates an answer grounded in that data.
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/85b4324e-1097-451c-a8a3-128052ee97c2" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3ef93162-2e33-4066-91b8-582c3b1c1776" />
+
