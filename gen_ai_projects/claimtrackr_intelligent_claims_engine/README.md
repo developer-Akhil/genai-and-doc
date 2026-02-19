@@ -31,3 +31,10 @@ For the successful implementation of this solution, the following inputs are req
 **AI-Driven Claim Evaluation:** Using embeddings and contextual retrieval, the LLM evaluates claim validity, detects inconsistencies or potential fraud indicators, and assesses coverage against policy rules.
 
 **Report Generation & Insights** A structured, consistent report is generated, summarizing claim status, recommendations, and settlement details, enabling faster and more informed decision-making.
+
+
+<img width="1762" height="783" alt="image" src="https://github.com/user-attachments/assets/12d03c5e-5fba-4f27-b575-e89dfbd3035b" />
+
+
+<img width="1471" height="682" alt="image" src="https://github.com/user-attachments/assets/6cc3565f-2357-40b3-8a69-5d2d1d1f53b4" />
+
