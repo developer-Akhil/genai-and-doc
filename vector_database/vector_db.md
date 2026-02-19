@@ -6,6 +6,17 @@ A Vector Database is a specialized type of storage system designed to handle uns
 
 Unlike traditional relational databases that store data in rows and columns and search for exact matches (e.g., "Find user ID 105"), a vector database finds data based on similarity or context.
 
+**Why Do We Need It?**
+
+Traditional databases (MySQL, PostgreSQL) are optimized for:
+* Exact match queries
+* Structured filters
+
+Vector databases are optimized for:
+* Nearest neighbor search
+* Semantic similarity
+* High-dimensional indexing (hundreds or thousands of dimensions)
+
 
 **Common Examples**
 If you are looking to implement one, the industry leaders currently include:\
