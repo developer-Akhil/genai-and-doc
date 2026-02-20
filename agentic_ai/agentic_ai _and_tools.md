@@ -1,6 +1,6 @@
 **What is Agentic AI?**
 
-Agentic AI refers to an AI paradigm in which a model is designed to act as an autonomous agent capable of planning, reasoning, making decisions, and taking actions to achieve a goal, rather than only responding to single prompts.\
+While standard AI (like a basic chatbot) waits for you to tell it exactly what to do step-by-step, Agentic AI is designed to achieve a goal by planning its own steps, using tools, and correcting its own mistakes along the way.
 Agentic AI is an AI system that can independently plan, decide, and execute actions across multiple steps, often by using tools, memory, and feedback loops, to accomplish a defined objective.
 
 **How Agentic AI Works (Conceptually)**\
